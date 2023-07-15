@@ -81,9 +81,9 @@ namespace Desktop_UI_3806
         {
             people = new ObservableCollection<Person>();
             BitmapImage image1 = new BitmapImage(new Uri("/Images/1.png", UriKind.Relative) );
-            people.Add(new Person(23, "Faied", "Ahamdh", "08.03.2000", image1,4.0));
+            people.Add(new Person(23, "Faied", "Ahamdh", "08.03.2000", image1,3.9));
             BitmapImage image2 = new BitmapImage(new Uri("/Images/2.png", UriKind.Relative));
-            people.Add(new Person(23, "Hanan", "Ramzan", "21.02.2000", image2,4.0));
+            people.Add(new Person(23, "Hanan", "Ramzan", "21.02.2000", image2,3.8));
         }    
 
     }

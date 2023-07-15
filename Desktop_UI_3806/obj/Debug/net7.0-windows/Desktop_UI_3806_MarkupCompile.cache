@@ -1,20 +1,20 @@
 ﻿Desktop_UI_3806
-1.0.0.0
+
 
 winexe
 C#
 .cs
-e:\semester 3\Programming project\Desktop_UI_3806\Desktop_UI_3806\obj\Debug\net7.0-windows\
+E:\semester 3\Programming project\Desktop_UI_3806\Desktop_UI_3806\obj\Debug\net7.0-windows\
 Desktop_UI_3806
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-e:\semester 3\Programming project\Desktop_UI_3806\Desktop_UI_3806\App.xaml
+E:\semester 3\Programming project\Desktop_UI_3806\Desktop_UI_3806\App.xaml
 4-1636514364
 
-11-1021692805
+9-578452461
 201-1976089768
 AddEditPersonWindow.xaml;AddStudent.xaml;MainWindow.xaml;StartUpscreen.xaml;
 
-True
+False
 
