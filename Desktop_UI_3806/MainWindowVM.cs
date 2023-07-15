@@ -21,6 +21,9 @@ namespace Desktop_UI_3806
         [ObservableProperty]
         public Person selectedPerson = null;
 
+        [ObservableProperty]
+        public double val;
+
 
 
         [RelayCommand]
@@ -35,6 +38,7 @@ namespace Desktop_UI_3806
             {
                 people.Add(vm.person1);
             }
+            
             
            
         }

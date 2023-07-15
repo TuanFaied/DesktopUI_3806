@@ -18,9 +18,9 @@ namespace Desktop_UI_3806
         public BitmapImage Image { get; set; }
 
         public string DateOfBirth { get; set; }
-        public Double GPA { get; set; }
+        public double GPA { get; set; }
 
-        public String ImagePath
+        public string ImagePath
         {
             get { return $"/Images/{Image}"; }
         }

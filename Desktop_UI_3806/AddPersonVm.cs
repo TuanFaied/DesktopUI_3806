@@ -42,8 +42,8 @@ namespace Desktop_UI_3806
             
             firstname = person1.FirstName;
             lastname = person1.LastName;
-            age = person1.Age;
-            gpa = person1.GPA;
+            Age = person1.Age;
+            Gpa = person1.GPA;
             dateofbirth = person1.DateOfBirth;
             currentImage = person1.Image;
         }
@@ -97,7 +97,7 @@ namespace Desktop_UI_3806
                 person1.LastName = lastname;
                 person1.Age = age;
                 person1.DateOfBirth = dateofbirth;
-                person1. GPA = gpa;
+                person1. GPA = Gpa;
                 person1.Image = currentImage;
 
             }

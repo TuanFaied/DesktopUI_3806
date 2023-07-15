@@ -37,6 +37,7 @@ namespace Desktop_UI_3806
                 DragMove();
             }
         }
-     
+        
+
     }
 }

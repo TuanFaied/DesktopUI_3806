@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+         xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
         xmlns:local="clr-namespace:Desktop_UI_3806"
         mc:Ignorable="d"
         WindowStyle="None"
@@ -41,10 +42,13 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition />
                         <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="40"/>
                         <ColumnDefinition Width="25"/>
-                        <ColumnDefinition Width="20"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock Text="Add Student" FontSize="10" FontWeight="SemiBold" Foreground="DarkGray" VerticalAlignment="Center" Margin="10 0 0 0" Grid.Column="0"/>
+                    <!--<Button x:Name="closeBtn" Click="closeBtn_Click"  Style="{StaticResource closeButton}" Width="38" Margin="0 3 0 0"  Height="26" ToolTip="close" Grid.Column="2">
+                        <Icon:PackIconMaterial Kind="Close" Cursor="Hand"/>
+                    </Button>-->
                     <!--<Button x:Name="minimizebutton"  Content="-" FontSize="16" Foreground="Black" Grid.Column="1" Cursor="Hand" 
                             Click="minimizebutton_Click" ToolTip="Minimize">
                         <Button.Style>
