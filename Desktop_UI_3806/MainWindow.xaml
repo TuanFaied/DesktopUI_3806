@@ -47,7 +47,15 @@
                                 </Button>
                             </StackPanel>
 
-                            <TextBlock Text="MERITORIOUS " FontSize="100" FontWeight="Bold"  TextAlignment="Left" FontFamily="Arial Black" Height="96" Width="898" />
+                            <TextBlock Text="MERITORIOUS " FontSize="100" FontWeight="Bold"  TextAlignment="Left" FontFamily="Arial Black" Height="96" Width="898" >
+                                <TextBlock.Foreground>
+                                    <LinearGradientBrush EndPoint="0.9,0.8" StartPoint="0.1,0">
+                                        <GradientStop Color="Black"/>
+                                        <GradientStop Color="White" Offset="1"/>
+                                        <GradientStop Color="#FF430DF7" Offset="0.503"/>
+                                    </LinearGradientBrush>
+                                </TextBlock.Foreground>
+                            </TextBlock>
                             <TextBlock Text="Efficient Contribution Effective Distribution" TextAlignment="Left" FontSize="20" RenderTransformOrigin="-1.384,0.444" Width="888" FontFamily="BankGothic Lt BT" >
                                 <TextBlock.Foreground>
                                     <LinearGradientBrush EndPoint="0,1" StartPoint="1,0">
